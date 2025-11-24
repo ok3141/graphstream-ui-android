@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'org.graphstream.ui.android'
+
+    compileSdkVersion 36
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 36
+    }
+}
+
+dependencies {
+    api 'org.graphstream:gs-core:2.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
