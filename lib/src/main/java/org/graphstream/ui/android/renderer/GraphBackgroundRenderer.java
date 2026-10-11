@@ -216,7 +216,7 @@ public class GraphBackgroundRenderer implements GraphicElement.SwingElementRende
 			if( style.getPadding().size() > 1 ) 
 				pady = (int)metrics.lengthToPx( style.getPadding(), 1 );
 
-            p.setStyle(Paint.Style.FILL);
+			p.setStyle(Paint.Style.FILL);
             g.drawRect(padx, pady, (int)metrics.viewport[2] - padx*2, (int)metrics.viewport[3] - pady*2 , p);
 		}
 	}

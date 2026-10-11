@@ -52,7 +52,7 @@ public class Fillable {
 				background.applyPaint(g, p);
 				if (!background.isImage())
 					shape.drawByPoints(view, g, p, false);
-                background.removePaint(p);
+				background.removePaint(p);
 			}
 	    }
 	}

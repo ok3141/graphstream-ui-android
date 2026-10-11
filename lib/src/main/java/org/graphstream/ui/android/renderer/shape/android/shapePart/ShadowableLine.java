@@ -47,8 +47,8 @@ public class ShadowableLine {
  		theShadowOff.x = camera.getMetrics().lengthToGu( style.getShadowOffset(), 0 );
  		theShadowOff.y = theShadowOff.x ;
  		if( style.getShadowOffset().size() > 1 ) 
- 			camera.getMetrics().lengthToGu( style.getShadowOffset(), 1 ) ;
-  	  	theShadowColor = ColorManager.getShadowColor(style, 0);
+ 			theShadowOff.y = camera.getMetrics().lengthToGu( style.getShadowOffset(), 1 ) ;
+ 		theShadowColor = ColorManager.getShadowColor(style, 0);
  		shadowStroke   = ShapeStroke.strokeForConnectorFill( style );
  	}	
 }

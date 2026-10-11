@@ -46,7 +46,7 @@ public class Shadowable {
 			background.applyPaint(g, p);
 			if (!background.isImage())
 				shape.drawByPoints(view, g, p, false);
-            background.removePaint(p);
+			background.removePaint(p);
 		}
 		else {
 			System.out.println("no shadow !!!");

@@ -157,7 +157,7 @@ public interface Form  {
             else
                 p.setStyle(Paint.Style.STROKE);
 
-            c.drawPath(this, p);
+		    c.drawPath(this, p);
         }
 		
 		@Override
